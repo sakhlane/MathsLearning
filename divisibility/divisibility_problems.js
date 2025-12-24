@@ -1,4 +1,5 @@
-/*1️⃣ Divisible by 3
+// practice divisibility problems
+/*1️⃣ Divisible by 3 
 
 Given an integer N, determine whether it is divisible by 3.
 
