@@ -223,7 +223,9 @@ function countExactKFactor(n,k){
             result.push(n);
         }
         factors = []; // empty factors array to store next number factor 
+        n--; //decrement the loop value
     }
 }
 
 countExactKFactor(10,2)
+
