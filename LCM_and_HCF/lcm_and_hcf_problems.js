@@ -64,7 +64,7 @@ function find_gcd(a,b){
 }
 //  find_gcd(4,6)
 
-// function gcd [Euclidean Algorithm]
+// function gcd [Euclidean Algorithm] => Keep replacing the bigger number with the reminder untill the reminder becomes 0
 function gcd(a,b){
     while(b !== 0 ){
         let reminder = a % b;
@@ -81,4 +81,5 @@ function lcm(a,b){
 }
 
 let lcmResult = lcm(4,6)
+
 console.log(lcmResult)
