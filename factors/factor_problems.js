@@ -197,7 +197,7 @@ function countCommonFactor( a, b){
 
     console.log(count);
 }
-countCommonFactor( 12,18)
+// countCommonFactor( 12,18)
 /*
 🔟 Numbers With Exactly K Factors
 
@@ -222,8 +222,10 @@ function countExactKFactor(n,k){
         if(factors.length === k){
             result.push(n);
         }
-        factors = []; // empty factors array to store next number factor 
+        factors = []; // empty factors array to store next number factor
+        n--; // decrement loop value  
     }
+    console.log(result.length);
 }
 
 countExactKFactor(10,2)
